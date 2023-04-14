@@ -8,6 +8,7 @@ from routers.movie import movie_router
 from routers.user import user_router
 
 import os
+import uvicorn
 
 #pip install fastapi   --> Instalación de FastAPI
 #pip install uvicorn   --> Instalación de Uvicorn para ejecutar el servidor
